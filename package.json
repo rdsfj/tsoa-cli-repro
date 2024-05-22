@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "tsoa": "tsoa spec-and-routes --configuration tsoa-config.js",
+    "tsoa-cjs": "tsoa spec-and-routes --configuration tsoa-config.cjs"
+  },
+  "dependencies": {
+    "tsoa": "^6.2.1"
+  }
+}
